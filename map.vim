@@ -5,3 +5,4 @@ return answer == 1 ? a:expansion : a:abbr
 endfunction
 
 iabbrev <expr> addr <SID>AbbrAsk('addr', "your full")
+abbr <expr> pa <SID>AbbrAsk('pa',"PowerAdvocate")
