@@ -4,5 +4,7 @@ let answer = confirm("Use the abbreviation '" . a:abbr . "'?",
 return answer == 1 ? a:expansion : a:abbr 
 endfunction
 
-iabbrev <expr> addr <SID>AbbrAsk('addr', "your full")
+iabbrev <expr> addr <SID>AbbrAsk('addr', "48 Newhall Street")
+
 abbr <expr> pa <SID>AbbrAsk('pa',"PowerAdvocate")
+iabbr teh the
