@@ -5,4 +5,4 @@ imap <C-S> <ESC>:w<CR>i
 map <A-DOWN> gj
 map <A-UP> gk
 imap <A-DOWN> <ESC>gji
-imap <A-UP> <ESC>gkii   
+imap <A-UP> <ESC>gki   
