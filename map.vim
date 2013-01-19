@@ -5,3 +5,6 @@ imap <C-S> <ESC>:w<CR>i
 map <A-DOWN> gj
 map <A-UP> gk
 
+"cycling between buffer
+map <A-right> <ESC>:bn<CR>
+map <A-left>  <ESC>:bp<CR>
