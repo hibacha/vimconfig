@@ -3,3 +3,7 @@ set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [HEX=\%0
     
 set laststatus=2
 
+
+if has('gui_running')
+  set guifont=Courier:h14
+endif
