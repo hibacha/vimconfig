@@ -5,6 +5,8 @@ return answer == 1 ? a:expansion : a:abbr
 endfunction
 
 iabbrev <expr> addr <SID>AbbrAsk('addr', "48 Newhall Street")
-
 abbr <expr> pa <SID>AbbrAsk('pa',"PowerAdvocate")
+
+"auto correction 
 iabbr teh the
+iabbr liunz linux
